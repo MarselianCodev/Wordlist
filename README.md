@@ -62,6 +62,6 @@ aracın daha da geliştirilmesini teşvik etmek.
 
 ##  Orijinal yazar
 
-  Muhammed aknc namı diğer j0rgan  
+  Muhammed aknc namı diğer viykl  
   muhammedenbussines@gmail.com
 
