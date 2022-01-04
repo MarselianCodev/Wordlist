@@ -1051,7 +1051,7 @@ def main():
 def get_parser():
     """Create and return a parser (argparse.ArgumentParser instance) for main()
     to use"""
-    parser = argparse.ArgumentParser(description="Common User Passwords Profiler")
+    parser = argparse.ArgumentParser(description="Yaygın Kullanıcı  Şifreler  Profiller oluşturucu")
     group = parser.add_mutually_exclusive_group(required=False)
     group.add_argument(
         "-i",
