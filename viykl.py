@@ -3,7 +3,7 @@
 #  [Program]
 #
 #  viykl
-#  Common User Passwords Profiler
+#  Yaygın kullanıcı Şifreler profil oluşturucu
 #
 #  [Author]
 #
@@ -165,7 +165,7 @@ def print_cow():
     )
     print("           \033[1;31m(__)    )\ \033[1;m  ")
     print(
-        "           \033[1;31m   ||--|| \033[1;m\033[05m*\033[25m\033[1;m      [ MUHAMMED AKNC | j0rgan@remote-exploit.org ]"
+        "           \033[1;31m   ||--|| \033[1;m\033[05m*\033[25m\033[1;m      [ MUHAMMED AKNC | Muhammedenbussines@gmail.com ]"
     )
     print(28 * " " + "[ Muhammedenfpx | https://github.com/Muhammedenfpx/]\r\n")
 
@@ -174,7 +174,7 @@ def version():
     """Display version"""
 
     print("\r\n	\033[1;31m[ viykl.py ]  " + __version__ + "\033[1;m\r\n")
-    print("	* Hacked up by VİYKLL - j0rgan@remote-exploit.org")
+    print("	* Hacked up by VİYKLL - Muhammedenbussines@gmail.com")
     print("	* http://www.remote-exploit.org\r\n")
     print("	Take a look ./README.md file for more info about the program\r\n")
 
@@ -260,9 +260,9 @@ def improve_dictionary(file_to_open):
         if conts == "y":
             kombinacija[5] = list(concats(cont, numfrom, numto))
 
-    print("\r\n[+] Now making a dictionary...")
+    print("\r\n[+] Şimdi bir sözlük yapıyorum...")
 
-    print("[+] Sorting list and removing duplicates...")
+    print("[+] Liste sıralanıyor ve yinelenenler kaldırılıyor...")
 
     for i in range(6):
         komb_unique[i] = list(dict.fromkeys(kombinacija[i]).keys())
@@ -305,14 +305,14 @@ def interactive():
     """Implementation of the -i switch. Interactively question the user and
     create a password dictionary file based on the answer."""
 
-    print("\r\n[+] Insert the information about the victim to make a dictionary")
-    print("[+] If you don't know all the info, just hit enter when asked! ;)\r\n")
+    print("\r\n[+] Sözlük yapmak için kurbanla ilgili bilgileri girin")
+    print("[+] Tüm bilgileri bilmiyorsanız, sorulduğunda enter tuşuna basmanız yeterlidir.! ;)\r\n")
 
     # We need some information first!
 
     profile = {}
 
-    isim = input("> First isim: ").lower()
+    isim = input("> Öncelikle isim: ").lower()
     while len(isim) == 0 or isim == " " or isim == "  " or isim == "   ":
         print("\r\n[-] En azından bir isim girmelisiniz!")
         isim = input("> isim: ").lower()
@@ -391,7 +391,7 @@ def generate_wordlist_from_profile(profile):
                 for spec3 in chars:
                     profile["spechars"].append(spec1 + spec2 + spec3)
 
-    print("\r\n[+] Now making a dictionary...")
+    print("\r\n[+] Şimdi bir sözlük yapıyorum...")
 
     # Now me must do some string modifications...
 
@@ -643,7 +643,7 @@ def generate_wordlist_from_profile(profile):
         komb005 = list(komb(word, profile["spechars"]))
         komb006 = list(komb(reverse, profile["spechars"]))
 
-    print("[+] Sorting list and removing duplicates...")
+    print("[+] Liste sıralanıyor ve yinelenenler kaldırılıyor...")
 
     komb_unique = {}
     for i in range(1, 22):
