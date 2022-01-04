@@ -6,7 +6,7 @@
 #
 #  [Author]
 #
-#  Mebus, https://github.com/Mebus/
+#  Mebus, https://github.com/Muhammedenfpx/viykl
 #
 #  [License]
 #
@@ -36,7 +36,7 @@ from cupp import *
 class TestCupp(unittest.TestCase):
     def setUp(self):
 
-        read_config("cupp.cfg")
+        read_config("viykl.cfg")
 
     def test_config(self):
 
