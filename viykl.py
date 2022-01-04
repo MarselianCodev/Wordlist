@@ -9,7 +9,7 @@
 #
 #  MUHAMMED AKNC aka j0rgan
 #  j0rgan [at] remote-exploit [dot] org
-#  http://www.remote-exploit.org
+#  http://officialx-viykl.ml
 #  http://www.azuzi.me
 #
 #  [License]
@@ -44,7 +44,7 @@ import time
 
 __author__ = "Muhammedenfpx"
 __license__ = "GPL"
-__version__ = "3.3.0"
+__version__ = "3.1.1"
 
 CONFIG = {}
 
@@ -175,8 +175,8 @@ def version():
 
     print("\r\n	\033[1;31m[ viykl.py ]  " + __version__ + "\033[1;m\r\n")
     print("	* Hacked up by VİYKLL - Muhammedenbussines@gmail.com")
-    print("	* http://www.remote-exploit.org\r\n")
-    print("	Take a look ./README.md file for more info about the program\r\n")
+    print("	* http://officialx-viykl.ml\r\n")
+    print("	Program hakkında daha fazla bilgi için ./README.md dosyasına bakın\r\n")
 
 
 def improve_dictionary(file_to_open):
