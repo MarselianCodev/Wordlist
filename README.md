@@ -15,15 +15,24 @@ VİYKL'yi çalıştırmak için Python 3'e ihtiyacınız var.
 Hızlı başlangıç
 -----------
 
-    $ python3 cupp.py -h
+    $ python3 viykl.py -h
 
 ##  Seçenekler
 
   Kullanım: viykl.py [SEÇENEKLER]
+        -h bu menü
 
-         1)-ls
-         2)-cd viykl
-         3)-python3 viykl.py -i
+        -i Kullanıcı parolası profili oluşturma için etkileşimli sorular
+
+        -w Mevcut sözlüğün profilini çıkarmak için bu seçeneği kullanın,
+                veya biraz pwnsauce yapmak için WyD.pl çıktısı :)
+
+        -l Depodan büyük kelime listeleri indirin
+
+        -a Varsayılan kullanıcı adlarını ve parolaları doğrudan Alecto DB'den ayrıştırın.
+                Project Alecto, birleştirildiği ve geliştirildiği saflaştırılmış Phenoelit ve CIRT veritabanlarını kullanır.
+
+        -v Programın sürümü
 
 
 
