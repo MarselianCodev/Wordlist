@@ -1,4 +1,4 @@
-![VİYKL](MAMİ.PNG)
+MAMİ.PNG
 
 
 
