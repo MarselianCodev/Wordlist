@@ -15,7 +15,7 @@ Marseliana'yi çalıştırmak için Python 3'e ihtiyacınız var.
 Hızlı başlangıç
 -----------
 
-    $ python3 viykl.py -h
+    $ python3 marselian.py -h
 
 ##  Seçenekler
 
