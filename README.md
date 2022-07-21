@@ -1,6 +1,3 @@
-![VİYKL](MAMİN.png)
-
-
 Kimlik doğrulamanın en yaygın biçimi, bir kullanıcı adı ile bir parola veya parolanın birleşimidir. Her ikisi de yerel olarak depolanmış bir tabloda depolanan değerlerle eşleşirse, bir bağlantı için kullanıcının kimliği doğrulanır. Parola gücü, kriptografik teknikler veya alternatif değerlerin kitaplık tabanlı otomatik test edilmesi yoluyla parolayı tahmin etme veya kırma ile ilgili zorluğun bir ölçüsüdür.
 
 Zayıf bir parola çok kısa olabilir veya yalnızca alfasayısal karakterler kullanabilir, bu da şifre çözmeyi kolaylaştırır. Zayıf bir parola, doğum günü, takma ad, adres, evcil hayvanın veya akrabanın adı gibi kullanıcının profilini çıkaran biri tarafından kolayca tahmin edilebilen veya Tanrı, aşk, para veya parola gibi yaygın bir kelime olabilir.
@@ -13,7 +10,7 @@ Bu nedenle viykl doğdu ve yasal sızma testleri veya adli suç soruşturmaları
 Gereksinimler
 ------------
 
-VİYKL'yi çalıştırmak için Python 3'e ihtiyacınız var.
+Marseliana'yi çalıştırmak için Python 3'e ihtiyacınız var.
 
 Hızlı başlangıç
 -----------
@@ -22,7 +19,7 @@ Hızlı başlangıç
 
 ##  Seçenekler
 
-  Kullanım: viykl.py [SEÇENEKLER]
+  Kullanım: marselian.py [SEÇENEKLER]
         -h bu menü
 
         -i Kullanıcı parolası profili oluşturma için etkileşimli sorular
@@ -59,11 +56,13 @@ Hızlı başlangıç
 
 ##  Github içe aktarma
 
-Bu proje, Muhammedenfpx tarafından https://github.com/Muhammedenfpx/viykl'a şuradan aktarılmıştır:
+Bu proje, MarselianCodev tarafından https://github.com/MarselianCodev/Wordlist'a şuradan aktarılmıştır:
 aracın daha da geliştirilmesini teşvik etmek.
 
 ##  Orijinal yazar
 
-  Muhammed aknc namı diğer viykl  
-  muhammedenbussines@gmail.com
+ marseliancodev@gmail.com
 
+### YouTube Channel
+
+### https://www.youtube.com/channel/UCTLYdslUhjMu84kJ9g6Y6sw
